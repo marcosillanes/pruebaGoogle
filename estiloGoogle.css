@@ -10,8 +10,8 @@
 .field {
   display:flex;
   position:realtive;
-  margin:18em auto;
-  width:40%;
+  margin:16.35em auto;
+  width:35%;
   flex-direction:row;
   box-shadow:
    1px 1px 0 white,
@@ -27,13 +27,15 @@ body {
 .field>input[type=text],
 .field>button {
   display:block;
-  font:1.5em 'Montserrat Alternates';
+  font-family: 'Hurricane', cursive;
+/*font-family: 'Noto Sans JP', sans-serif;*/
+/*font-family: 'Orbitron', sans-serif;*/
 }
 
 .field>input[type=text] {
   flex:1;
   padding:0.3em;
-  border:0.2em solid white);
+  border:(0.2em solid white);
 }
 
 .field>button {
