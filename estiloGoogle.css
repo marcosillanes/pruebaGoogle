@@ -1,15 +1,44 @@
-.tituloGoogle{
-    text-align: center;
-    padding-top: 200px ;
-    font-size: xx-large;
-    background: #6D41A1
+@import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates);
 
 
+*{
+    margin:0;
+    padding:0;
+    font:12pt Arial;
 }
-.barrabusqueda{
-    text-align: center;
-    
+
+.field {
+  display:flex;
+  position:realtive;
+  margin:18em auto;
+  width:40%;
+  flex-direction:row;
+  box-shadow:
+   1px 1px 0 white,
+
+  ;
 }
-.barradetexto{
-    
+
+body {
+    background-color: #ffdd90;
+    background-image: url("img/googleFondo.png");
+  }
+
+.field>input[type=text],
+.field>button {
+  display:block;
+  font:1.5em 'Montserrat Alternates';
+}
+
+.field>input[type=text] {
+  flex:1;
+  padding:0.3em;
+  border:0.2em solid white);
+}
+
+.field>button {
+  padding:0.6em 0.8em;
+  background-color:white;
+  color:white;
+  border:none;
 }
